@@ -1,6 +1,10 @@
 
 body {
     font-family: 'Roboto' , sans-serif;
+    display: flex;
+    flex-direction: column;
+   
+
 }
 .header {
     display: flex;
@@ -36,12 +40,14 @@ a {
 .second-section {
     display: flex;
     background-color: #1f2937;
+    justify-content: space-around;
 }
 
 .text-container {
     display: flex;
     flex-direction: column;
     width: 500px;
+ 
 
 }
 
@@ -58,3 +64,133 @@ a {
     flex-wrap: wrap;
 
 }
+
+.image {
+    color: white;
+    height: 150px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgray;
+    align-self: center;
+ 
+
+
+}
+
+button {
+    display: block;
+    background-color: #3882f6;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    margin:10px;
+    width: 75px;
+    height: 35px;
+}
+
+.second-section {
+    display: flex;
+    
+
+}
+
+.third-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.main-title-two {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
+
+}
+.sub-images {
+    display: flex;
+    justify-content: center;
+
+}
+
+.box {
+    box-sizing: border-box;
+    height: 150px;
+    width: 150px;
+    justify-content:center ;
+    border-radius: 25px;
+    border: 3px solid #3882f6;
+
+}
+
+.sub-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 16px;
+}
+
+.sub-text {
+    font-size: 18px;
+ 
+    flex-wrap: wrap;
+
+}
+
+
+.quote {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+
+.quote {
+  
+    height: 300px;
+    background-color: #E5E7EB;
+    padding: 50px;
+
+}
+
+.testimonial {
+    font-size: 36px;
+
+}
+
+.call {
+    display: flex;
+    width: 400px;
+    height: 100x;
+    background-color: #3882f6;
+    align-self: center;
+    margin: 50px;
+    border-radius: 25px;
+    padding: 30px;
+
+
+}
+
+.text-of-call{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    height: 100px;
+    align-items: center;
+    color: white;
+
+    
+}
+
